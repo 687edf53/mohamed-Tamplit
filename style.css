@@ -1,0 +1,940 @@
+/* how make hr and edit it
+  1- write hr in html
+  2- write [
+    border:0;
+    border:           (size)(type)(color)
+!important {border-top: 1px solid #EEEEEE;}
+    we use it to change color
+  ]
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Karma", sans-serif;
+  box-sizing: border-box;
+}
+
+#pargraph {
+  text-align: center;
+  font-size: 24px;
+  color: #2f2f2f;
+  background-color: #fff;
+}
+.food-mail {
+  background-color: #fff;
+}
+.chef-man {
+  text-align: center;
+  margin: auto;
+  width: 1000px;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 300px;
+}
+
+.content {
+  width: 1137px;
+  margin-left: 225px;
+  font-size: 15px;
+}
+
+.chef-man h1 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+.chef-man img {
+  display: inline-block;
+  width: 800px;
+  height: 535px;
+}
+
+.par {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  top: 1px;
+  z-index: 3;
+  margin-top: -1px;
+}
+.iam-who {
+  margin: auto;
+  text-align: center;
+}
+.iam-who h1 {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+    line-height: 2px;
+}
+.iam-who p {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.iam-who pre {
+  margin-bottom: 50px;
+  font-size:14px;
+}
+.hr-line2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+hr {
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 0.5px;
+  border:0;
+  border-top:1px solid #ece8e8;
+
+}
+.food-mail:first-child {
+  transform:translateX(15px)
+}
+
+#Mail {
+  text-align: right;
+  margin-top: -35px;
+  margin-right: -590px;
+  font-size: 24px;
+  transform: translateX(20px);
+}
+
+#menu-bar {
+  width: 10px;
+  word-spacing: 1px;
+  font-weight: 300;
+  margin-right:60px;
+}
+span {
+  font-size: 23px;
+  padding: 18px 15px;
+  margin: 0 0 0 65px;
+  user-select: none;
+}
+
+span:hover {
+  background-color: #cecbcb;
+  padding: 18px 15px;
+  cursor: pointer;
+}
+
+#menu {
+  position: fixed;
+  background-color: #fff;
+  display: none;
+  margin-top: -120px;
+  height: 90vh;
+  width: 500px;
+  box-shadow: 1px 1px 1px #aaa;
+  font-weight: 100;
+  z-index: 3;
+  transform: translateY(0);
+}
+  #menu p {
+  width: 500px;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+
+#menu p:hover {
+  background-color: #cccccc;
+}
+
+.contian-images img {
+  width: 259px;
+  height: 385px;
+  margin-left: 12px;
+  display: inline-block;
+}
+
+.contian-images {
+  margin: 70px;
+  margin-top: 120px;
+  margin-left: 70px;
+  text-align: center;
+  transform: translateY(30px);
+  transform: translateX(-10px);
+  transform: scale(1.01);
+}
+
+.sandwidsh {
+  width: 270px;
+  display: inline-block;
+
+
+}
+.contian-images p {
+  width: 250px;
+  text-align: center;
+  margin-left:3.5%;
+  text-align: center;
+}
+
+.sandwidsh p {
+  font-size:1.5em;
+  width: 100%;
+}
+
+.steak {
+  display:inline-block;
+
+}
+
+.steak p {
+font-size:1.5em;
+margin-left:7%;
+}
+
+
+pre {
+  font-size:14px;
+  margin-top: 10px;
+text-align: center;
+}
+
+.sandwidsh {
+  transform: translateY(-39px);
+}
+
+.Cherries {
+  display: inline-block;
+  transform: translateY(-15px);
+
+}
+.Cherries p {
+  font-size:1.5em;
+}
+.Cherries pre {
+  margin-top:10px;
+}
+
+.Pasta {
+  display: inline-block;
+  transform: translateY(-44px);
+  text-align: center;
+
+}
+
+.Pasta pre {
+  font-size:14px;
+}
+
+.line-img{
+  margin-top:20px;
+}
+.line-img pre {
+  font-size:14px;
+  text-align: center;
+}
+.line-img p {
+  font-size:1.4em;
+}
+
+.line-img img {
+  display: inline-block;
+}
+
+.popsicle {
+  display: inline-block;
+
+}
+
+
+.salmon {
+  display: inline-block;
+  transform:translateY(20px);
+
+}
+
+.sandwish-1 {
+  display: inline-block;
+  transform: translateY(40px);
+
+}
+
+.sandwish-1 pre {
+  margin-top: 15px;
+}
+
+.lefresh {
+  display: inline-block;
+}
+.pages {
+  margin:auto;
+  margin-top: 45px;
+  text-align: center;
+}
+.hr-line {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.hr-line hr {
+  width: 100%;
+  margin-top: 30px;
+  height: 0.5px;
+  border:0;
+  border-top:1px solid #ece8e8;
+}
+small {
+  font-size: 14px;
+  padding:10px 20px;
+  color: #000;
+  user-select: none;
+}
+small:hover{
+  background-color: #000;
+  color:white;
+  cursor: pointer;
+}
+
+.right {
+  color:#000;
+  font-size: 50px;
+}
+.pre-pasta {
+  font-size: 10px;
+}
+a {
+  font-size: 50px;
+  background-color: black;
+}
+
+#Mail {
+  margin-top:-35px;
+  margin-right: -367px;
+}
+#pargraph{
+  margin-top: 30px;
+}
+.food-mail {
+  margin-top:-33px;
+}
+@media (max-width:970px) {
+  #menu-bar {
+    transform: translateX(-504px);
+  }
+}
+    @media (max-width:1024px) {
+      .contian-images {
+        transform: translateX(30px);
+      }
+    }
+
+    @media (min-width:834px) and (max-width:1000px) {
+      .contian-images img {
+        width: 100%;
+      }
+      .contian-images {
+        width: 70%;
+      }
+      #menu {
+        transform: translateY(0);
+      }
+    }
+
+    @media (min-width:940px) {
+      #menu-bar {
+    transform: translateX(-504px);
+  }
+
+}
+
+    @media (max-width:410px) {
+      .contian-images img {
+        width:80%;
+      }
+}
+
+    @media (max-width:825px) {
+      #menu-bar {
+        transform: translateX(-450px)
+      }
+      #Mail {
+        transform: translateX(-50px)
+      }
+      #menu {
+        transform: translateY(0);
+      }
+}
+
+  @media (max-width:755px) {
+    #Mail {
+      transform: translateX(-80px)
+    }
+    #menu {
+      transform: translateY(0px);
+    }
+}
+    @media (max-width:717px) {
+      #Mail {
+        transform: translateX(-90px)
+      }
+      #menu-bar {
+        transform: translateX(-400px)
+    }
+
+}
+
+    @media (max-width:670px) {
+      #Mail {
+        transform: translateX(-120px)
+      }
+      #menu-bar {
+        transform: translateX(-400px)
+      }
+      #menu {
+        transform: translateY(0);
+        width: 60%;
+      }
+      #menu p {
+        width: 100%;
+      }
+}
+
+@media (min-width:1000px) {
+  span {
+    margin:0 0 0 -150px;
+  }
+  #Mail {
+    margin-right: -537px;
+  }
+}
+
+@media (max-width:630px) {
+  #Mail {
+    margin-right: -330px;
+  }
+  #menu-bar {
+    transform:translateX(-360px)
+  }
+}
+
+@media (max-width:500px) {
+  #Mail {
+    margin-right: -280px;
+  }
+  #menu-bar {
+    transform:translateX(-320px)
+  }
+}
+
+@media (max-width:455px) {
+  #Mail {
+    margin-right: -240px;
+  }
+  #menu-bar {
+    transform:translateX(-280px)
+  }
+}
+
+@media (max-width:400px) {
+  #Mail {
+    margin-right: -220px;
+  }
+  #menu-bar {
+    transform:translateX(-250px)
+  }
+  .par
+  .food-mail,
+  #menu-bar{
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #fff;
+  }
+  .contian-images img {
+    margin: auto;
+  }
+  .contian-images {
+    transform: translateX(-40px);
+  }
+}
+
+@media (max-width:315px) {
+  #Mail {
+    margin-right: -190px;
+  }
+  #menu-bar {
+    transform:translateX(-220px)
+  }
+  .par
+  .food-mail,
+  #menu-bar{
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .contian-images img {
+    margin: auto;
+  }
+  .contian-images {
+    transform: translateX(-80px);
+  }
+}
+
+
+@media (max-width:300px) {
+  .contian-images {
+    transform: translateX(20px);
+  }
+  .par {
+    background-color: #fff;
+  }
+  .pages {
+    width: 100%;
+    white-space: nowrap;
+    transform: translateX(35px);
+  }
+  .hr-line {
+    width: 200px;
+  }
+  hr {
+    width: 100%;
+    transform: translateX(40px);
+  }
+  #pargraph {
+    transform: translateX(50px);
+  }
+}
+
+@media (max-width:400px) {
+  .contian-images {
+    transform: translateX(20px);
+  }
+  .par {
+      transform: translateX(-388px);
+  }
+  .pages {
+    width: 100%;
+    white-space: nowrap;
+    transform: translateX(35px);
+  }
+  .hr-line {
+    width: 200px;
+  }
+  hr {
+    width: 100%;
+    transform: translateX(40px);
+  }
+  .contian-images img {
+    margin-top:30px;
+  }
+  #Mail {
+    transform: translateX(-200px);
+  }
+  #menu-bar {
+    transform: translateX(-220px);
+  }
+
+}
+
+
+
+kbd {
+  font-weight: 400;
+}
+.FOOTER kbd {
+  margin-bottom: 25px;
+}
+.FOOTER {
+  text-align: left;
+  display:block;
+  margin-left:60px;
+  width: 250px;
+  margin-top: 100px;
+}
+
+.end {
+  width: 1200px;
+  height: 220px;
+  margin:auto;
+}
+
+.FOOTER pre {
+  text-align: left;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.FOOTER pre ,kbd {
+  line-height: 22px;
+}
+lll a {
+  background-color: transparent;
+  color: #000;
+  font-size: 16px;
+}
+lll {
+  font-size: 16px;
+}
+
+
+.BLOG-POSTS {
+  width: 250px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+  margin-top: -155px;
+  margin-left: 580px;
+}
+
+.BLOG-POSTS kbd {
+  margin-left: -130px;
+  margin-top: 10px;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.lorem {
+  position: absolute;
+  transform: translateX(-100px);
+  padding: 10px;
+  padding-bottom:50px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height:60px;
+  padding-left: 10px;
+}
+.lorem p {
+  display: inline-block;
+}
+.BLOG-POSTS img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-left:-240px;
+  margin-top:40px;
+}
+.FOOTER kbd {
+  position: absolute;
+  font-size: 24px;
+  transform: translateY(-50px);
+}
+.POPULAR-TAGS {
+  position: relative;
+}
+.POPULAR-TAGS kbd {
+  position: absolute;
+  transform: translateX(828px);
+}
+
+
+.lorem p {
+  margin:-48px 100px 0 0; 
+  font-size: 18px;
+}
+
+.lorem bdi {
+  font-size: 16px;
+  white-space: nowrap;
+  display: inline-block;
+  transform: translateX(-18px);
+}
+
+.lorem:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  padding: 15px;
+  padding-bottom:55px;
+  margin-top: 50px;
+}
+
+.hr-line2 {
+  margin-top: 120px;
+  width: 500px;
+  transform: translateX(-85px);
+}
+
+
+.ipusm {
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(150px);
+  padding: 20px;
+  padding-bottom: 60px;
+  padding-left: 230px;
+  margin-right: 210px;
+  margin-top:-30px;
+}
+
+.ipusm bdi{
+  font-size: 16px;
+  white-space: nowrap;
+  display: inline-block;
+  transform: translateX(23px);
+  margin-top: 60px;
+}
+
+.ipusm p {
+  margin: 10px -150px 0 0; 
+  font-size: 18px;
+  transform: translateX(-268px);
+}
+
+.ipusm:hover {
+  background-color: #ccc;
+}
+
+.POPULAR-TAGS {
+  width: 400px;
+  margin-left: 809px;
+  margin-top: -50px;
+}
+.POPULAR-TAGS bdi{
+  transform: translateY(-50px);
+  display: inline-block;
+  background-color: #616161;
+  color: #fff;
+  margin: 1px;
+  margin-bottom:10px;
+  padding:1px 6px;
+  font-size: 13px;
+}
+
+.POPULAR-TAGS kbd {
+  font-size: 24px;
+  transform: translateX(3px);
+  margin-top: -110px;
+}
+
+.POPULAR-TAGS bdi:nth-child(2) {
+  background-color: #000;
+  font-size: 15px;
+  padding:2px 6px;
+}
+
+@media (max-width:1227px) {
+  .contian-images {
+    margin: 30px;
+    margin-top: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media (max-width:1110px) {
+  .contian-images {
+    margin: 10px;
+    margin-top: 120px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #Mail {
+    transform: translateX(-284px);
+  }
+  #pargraph {
+    transform: translateX(150px);
+  }
+}
+@media (max-width:1140px) {
+  .contian-images {
+    margin: 10px;
+    margin-top: 120px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  #Mail {
+    margin-right:-684px;
+  }
+  #menu-bar {
+    margin-left: 150px;
+  }
+}
+
+
+@media (max-width:289px) {
+  .food-mail #pargraph {
+    
+  }
+}
+
+@media (max-width:91px) {
+  .food-mail #pargraph {
+    text-align: center;
+    transform: translateX(450px);
+  }
+  #Mail {
+  transform: translateX(-135px);
+  }
+  #menu-bar {
+    transform: translateX(90px);
+  }
+  .pages {
+    transform: translateX(-6px);
+  }
+  .chef-man img {
+  width:200px;
+  height:350px;
+  }
+  .chef-man h1 {
+    font-size: 1.2em;
+    
+  }
+  .chef-man {
+        transform: translateX(-243px);
+  }
+
+  .iam-who {
+    text-align: center;
+    margin: auto;
+  }
+  .iam-who h1 {
+    white-space: nowrap;
+  }
+  .iam-who .content {
+    transform: translateX(70px);
+    width: 200px;
+  }
+  .par {
+  background-color: #fff;
+    position: fixed;
+}
+  .contian-images p,pre {
+  transform: translateX(-5px);
+}
+  #menu p {
+  transform: translateX(0px);
+  }
+  .end .FOOTER {
+    display: block;
+  }
+  .end .BLOG-POSTS {
+    width: 50px;
+    transform: translateX(-330px);
+    margin-top: 100px;
+  }
+  .end .BLOG-POSTS kbd {
+    transform: translateX(-60px);
+  }
+  .end .BLOG-POSTS .lorem p {
+    transform: translateX(0px);
+  }
+
+  .end .POPULAR-TAGS {
+    margin-top: 200px;
+    transform: translateX(-780px);
+    width: 200px;
+  }
+  .par .food-mail #pargraph{
+    white-space: nowrap;
+    transform: translateX(470px);
+  }
+  .par #menu-bar {
+    transform: translateX(120px);
+  }
+
+  .contian-images {
+  transform: translateX(40px);
+}
+.chef-man {
+    transform: translateX(-243px);
+}
+.iam-who {
+  transform: translateX(-20px);
+}
+}
+
+
+@media (max-width:264px) {
+  #Mail {
+    margin-right: -495px;
+  }
+  .par {
+    transform: translateX(-350px);
+  }
+  .pages {
+    width: 5px;
+    transform: translateX(-64px);
+  }
+  .pages small{
+    padding: 8px;
+    font-size: 10px;
+    transform: translateX(10px);
+  }
+  hr {
+    transform: translateX(25px);
+  }
+  .chef-man img {
+    width: 190px;
+    height: 180px;
+  }
+  .chef-man {
+    transform: translateX(-686px);
+}
+  .chef-man h1 {
+    font-size: 1.1em;
+  }
+  .content {
+    width: 200px;
+    transform: translateX(-211px);
+}
+  .end .FOOTER {
+    transform: translateX(-41px);
+  } 
+  .end .FOOTER pre {
+    font-size: 14px;
+  } 
+    .end .BLOG-POSTS {
+    width: 50px;
+    transform: translateX(-330px);
+    margin-top: 100px;
+  }
+  .end .BLOG-POSTS kbd {
+    transform: translateX(-60px);
+  }
+  .end .BLOG-POSTS .lorem p {
+    transform: translateX(0px);
+  }
+
+  .end .POPULAR-TAGS {
+    margin-top: 200px;
+    transform: translateX(-780px);
+    width: 200px;
+  }
+  .par {
+    transform: translateX(-389px);
+    font-size: 14px;
+  }
+  #pargraph {
+    font-size: 20px;
+        transform: translateX(82px);
+  }
+  #Mail {
+    font-size: 20px;
+    margin-top: -28px;
+    transform: translateX(-338px);
+  }
+  #menu-bar {
+    font-size: 15px;
+    margin: 0 0 0 114px;
+  }
+  .contian-images {
+    margin-left: -31px;
+  }
+}
