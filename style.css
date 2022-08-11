@@ -798,6 +798,7 @@ lll {
   }
   .chef-man {
         transform: translateX(-243px);
+        text-align:center;
   }
 
   .iam-who {
